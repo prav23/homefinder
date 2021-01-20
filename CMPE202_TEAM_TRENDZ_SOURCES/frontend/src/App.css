@@ -1,0 +1,409 @@
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  } 
+  
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.profileContainer{
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 640px !important;  
+}
+
+.UserContainer{
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 700px !important;  
+}
+.monitorContainer{
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 700px !important;
+  background-color: rgb(167, 243, 205); 
+}
+
+.mainComponent{
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 800px !important;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.homePage{
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 800px !important;
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url("/HomeFinder-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .card{
+  width: 350px;
+  height: 400px;
+} */
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.introCard{
+  width: 480px;
+  height: 280px;
+  margin-right: 0px;
+}
+
+.machineCard{
+  width: 300px;
+  height: 480px;
+}
+::-webkit-scrollbar {display:none;}
+.machineAvailable{
+  width: 290px;
+  height: 380px;
+}
+.card-Body{
+padding: 0px;
+}
+.smallCol{
+  padding-right: 0px;
+}
+.navbar{
+  background-color: white;
+  width: 100%;
+  height: 10%;
+  min-height: 70px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.header {
+  padding-top: 80px;
+  border-bottom: 2px solid rgb(0, 85, 162);
+  width: 100%;
+}
+
+.navlinkText{
+  color: white;
+}
+
+.heading{
+  font-family: "LatoWeb","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+  padding-left: 150px;
+  font-size:50px;
+  height:50px;
+
+}
+.App {
+  text-align: center;
+}
+
+.cardContainer{
+  margin-top: 50px;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loginmodalbutton {
+  float: right;
+  margin: 20px;
+}
+
+.headermodal {
+  padding: 20px 0;
+}
+
+.headerdiv {
+  background-color: white;
+  height: 60px;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+  width: auto;
+  margin: auto;
+  margin-top: auto;
+  margin-left: 100px;
+  padding:15px;  
+}
+
+.infoContainer{
+  display: block;
+  -moz-border-radius:80px;
+  -webkit-border-radius:30px;
+  border-radius:3px;
+  width: 100vw;
+  height: 700px;
+  margin-left: 0px ;
+  margin-top: 50px ;
+  margin-right: 0px ;
+  padding-top: 5px;
+}
+.monitorArea{
+  display: block;
+  -moz-border-radius:80px;
+  -webkit-border-radius:30px;
+  border-radius:3px;
+  width: 100vw;
+  height: 700px;
+  margin-left: 0px ;
+  margin-top: 50px ;
+  margin-right: 0px ;
+  padding-top: 5px;
+}
+
+.rowFull{
+  width: 100vw;
+}
+
+.slideshow{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  height: 520px;
+  filter: brightness(0.6);
+}
+
+.infoSection{
+  height: 600px;
+  width: 95%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.infoSectionScrollable{
+  height: 560px;
+  width: 95%;
+  margin-left: 30px;
+  margin-right: 30px;
+  overflow: scroll;
+}
+
+@media (min-width: 1200px) {
+  .dashboardContainer {
+    max-width: 2100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .serviceRequestContainer {
+    max-width: 2100px;
+    min-height: 600px;
+  }
+} 
+
+.dashboardDivScrollable{
+  height: 510px;
+  width: 95%;
+  margin-left: 30px;
+  margin-right: 30px;
+  overflow: scroll;
+}
+
+.serviceRequestScrollable{
+  height: 630px;
+  width: 95%;
+  margin-left: 30px;
+  margin-right: 30px;
+  overflow: scroll;
+}
+.fixed-content {
+  top: 0;
+  bottom:0;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+.tabStyles .nav-link.active{
+  background-color:white;
+  color: green;
+    border-color: transparent;
+}
+
+.tabStyles .nav-link{
+  font-weight: 600;
+  color: white;
+  border-color: transparent;
+} 
+
+.tab-content{
+  background-color: white;
+
+}
+
+carousel-inner>.item {
+  position: relative;
+  max-height: 600px;
+}
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.modalSignUp.modal-content {
+  width: 400px;
+}
+
+.success-modal .modal-backdrop{
+  background-color: green;
+}
+
+.sideTab .nav-link.active{
+  background-color:green;
+  color: white;
+  border-color: transparent;
+}
+.sideTab .nav-link{
+  font-weight: 600;
+  color:green;
+  background-color: white;  
+  border-color: transparent;
+} 
+
+.logo{
+  margin-left: 10%;
+}
+
+.insideModal{
+  padding: 30px;
+}
+
+.modal-header {
+  border-bottom: 0 none;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+.searchBar{
+  padding-top: 80px;
+  color: #717479;
+}
+
+.listings{
+  padding: 50px;
+}
+
+.displayPage{
+  padding: 60px;
+}
+
+.textLocation{
+  position:absolute;
+  top:26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(245, 245, 245);
+  font-family: "Ivar Headline","Ivar Headline Subset","Times New Roman",serif;
+  font-size: 150%;
+}
+
+.h1, h1 {
+  font-size: 4rem;
+  font-weight: 1000;
+}
+
+p {
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .rangeBox .form-inline .form-control{
+    width: 10px;
+  }
+}
+
+#search-logo{
+  color: white !important;
+}
+
+.headerRow{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body{
+  margin: 0px;
+ }
+
+.formPage{
+  padding: 60px;
+  margin: 0 auto; 
+  width:1000px;
+ }
+
+ .pageTitle{
+  text-align: center;
+ }
+
+ .moreButton{
+  float: right;
+ }
+
+ .navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
